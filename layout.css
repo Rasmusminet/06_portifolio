@@ -1,0 +1,13 @@
+@media (min-width: 840px) {
+  .top-nav li {
+    margin: 0 10px;
+  }
+  .top-nav .menu {
+    width: auto;
+    max-height: none;
+    flex-direction: row;
+  }
+  .top-nav .menu-icon {
+    display: none;
+  }
+}
