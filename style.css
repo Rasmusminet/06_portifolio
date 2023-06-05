@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 /******************burger**************/
+.logo img {
+  width: 80px;
+  height: 80px;
+}
 .top-nav {
   position: fixed;
   width: 100%;
@@ -14,7 +18,7 @@
   align-items: center;
   flex-wrap: wrap;
   transition: top 0.75s ease-in;
-  background-color: #e8e8e8;
+  background-color: #b2b2b2;
 }
 .top-nav .menu {
   list-style: none;
@@ -30,6 +34,7 @@
   text-align: center;
   width: 100%;
 }
+
 .top-nav .menu li a {
   display: inline-block;
   min-width: 75px;
@@ -40,6 +45,7 @@
   font-size: 20px;
   width: 100%;
 }
+
 .top-nav .menu li a:link,
 .top-nav .menu li a:visited {
   color: #0d0d0d;
