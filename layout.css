@@ -21,9 +21,10 @@
   .top-nav .menu {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
     max-height: none;
     flex-direction: row;
+    margin-right: 0;
   }
   .top-nav .menu-icon {
     display: none;
@@ -36,11 +37,13 @@
     width: auto;
     height: 15%;
   }
+  img {
+    width: 100%;
+    height: auto;
+  }
   .porti img {
     width: 100%;
     height: auto;
-
-    margin-top: 10%;
   }
   .sider {
     color: black;
@@ -61,7 +64,7 @@
     margin-bottom: 10px;
   }
   .forser {
-    margin-top: 200%;
+    margin-top: 5%;
   }
   /*****GRID desk****/
   #proj_grid {
@@ -69,7 +72,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 5%;
-    padding: 15% 5% 10% 5%;
+    padding: 5% 5% 10% 5%;
   }
 
   #pro1 {
@@ -105,11 +108,98 @@
   .knaps:hover {
     transform: scale(1.1);
   }
-  .topoverskrift {
-    position: absolute;
-    margin-top: 10%;
-  }
   .pere {
-    line-height: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-top: 5%;
+  }
+  .div2 {
+    gap: 1%;
+  }
+  .div3 {
+    gap: 1%;
+  }
+  .div4 {
+    gap: 1%;
+  }
+  .div4 img {
+    padding: 1%;
+  }
+  .div2 img {
+    padding: 2%;
+  }
+  .div5 {
+    gap: 1%;
+  }
+  .div6 {
+    gap: 1%;
+  }
+  /***************indhold****************/
+  .h11 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  .h111 {
+    margin-top: 0%;
+  }
+  .underoverdiv {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .div2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0%;
+  }
+  .div2 img {
+    width: 100%;
+    height: auto;
+  }
+  .div3 img {
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+  }
+  .div4 img {
+    width: 100%;
+    height: auto;
+  }
+  .div5 {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .div5 img {
+    width: 100%;
+    height: auto;
+  }
+  .divv {
+    margin-top: 3%;
+  }
+  .div6 {
+    margin-top: 2%;
+  }
+  .h111 {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .h111 img {
+    width: 30%;
+    height: auto;
+  }
+  .logoo {
+    margin-right: 10%;
+  }
+  .bundinker {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+  }
+  .bundinker img {
+    width: auto;
+    height: 40%;
   }
 }

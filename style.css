@@ -8,14 +8,51 @@
   width: 80px;
   height: 80px;
 }
+.h111 {
+  margin-top: 5%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logoo {
+  width: 20%;
+  height: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.h11 {
+  margin-top: 5%;
+  padding: 8px;
+}
+.pere {
+  padding: 10px;
+}
+.div2 {
+  padding: 10px;
+}
+.div3 {
+  padding: 10px;
+}
+.div4 {
+  padding: 10px;
+}
+.div5 {
+  padding: 10px;
+}
+.div6 {
+  padding: 10px;
+}
 .porti img {
   width: 100%;
   height: auto;
   padding: 6%;
-  margin-top: 60%;
+  margin-top: 10%;
 }
 body {
   font-family: "Bebas Neue", sans-serif;
+  background-color: rgba(236, 232, 228, 0.471);
 }
 .knap {
   width: auto;
@@ -26,7 +63,7 @@ body {
 }
 
 .top-nav {
-  position: fixed;
+  position: static;
   width: 100%;
 
   padding: 10px 10px 5px;
@@ -171,4 +208,14 @@ footer {
 #pro6 {
   grid-column: 2;
   grid-row: 3;
+}
+.bundinker {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  margin-top: 5%;
+}
+.bundinker img {
+  width: auto;
+  height: 40%;
 }
