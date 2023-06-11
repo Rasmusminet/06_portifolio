@@ -5,7 +5,7 @@ window.onscroll = function () {
   if (lastScrollpos > currentScrollPos) {
     document.getElementById("top-nav").style.top = "0";
   } else {
-    document.getElementById("top-nav").style.top = "-75px";
+    document.getElementById("top-nav").style.top = "-40%";
   }
   lastScrollpos = currentScrollPos;
   menuButtonCheck.checked = false;
