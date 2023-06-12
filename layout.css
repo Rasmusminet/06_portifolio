@@ -196,6 +196,7 @@
   .h111 {
     font-size: 2rem;
     display: grid;
+    padding: 0;
     grid-template-columns: 1fr 1fr;
   }
   .div10 {
