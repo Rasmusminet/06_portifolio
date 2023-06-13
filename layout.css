@@ -255,4 +255,17 @@
   ul {
     margin-left: 3%;
   }
+  .bunkeri {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-bottom: -35%;
+  }
+  .bunkeri img {
+    width: auto;
+    height: 15%;
+  }
+  .bunkingere:hover {
+    transform: scale(1.1);
+  }
 }
